@@ -6,11 +6,11 @@ urls:
 antora:
   extensions:
     - require: "@antora/lunr-extension"
-      languages: [en, nl]
+      languages: [en]
 content:
   sources:
     - url: .
-      branches: main
+      branches: HEAD
       start_path: docs
 ui:
   bundle:
