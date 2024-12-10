@@ -1,0 +1,4 @@
+name: docs
+title: Antora docs
+start_path: docs
+version: ~

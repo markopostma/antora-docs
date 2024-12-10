@@ -1,0 +1,19 @@
+site:
+  title: Antora docs
+  start_page: docs::index.adoc
+urls:
+  html_extension_style: drop
+antora:
+  extensions:
+    - require: "@antora/lunr-extension"
+      languages: [nl]
+      enabled: true
+content:
+  sources:
+    - url: .
+      branches: HEAD
+      start_path: docs
+ui:
+  bundle:
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+    snapshot: true

@@ -1,0 +1,17 @@
+{
+  "name": "antora-graphql-demo",
+  "version": "0.1.0",
+  "scripts": {
+    "preserve": "npm run build",
+    "prebuild": "npx rimraf ./build",
+    "build": "npx antora antora-playbook.yml",
+    "serve": "npx http-server build/site -c-1"
+  },
+  "dependencies": {
+    "@antora/lunr-extension": "^1.0.0-alpha.8",
+    "antora": "^3.1.10"
+  },
+  "devDependencies": {
+    "rimraf": "^6.0.1"
+  }
+}
