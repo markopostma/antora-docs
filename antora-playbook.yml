@@ -3,6 +3,9 @@ site:
   start_page: docs::index.adoc
 urls:
   html_extension_style: drop
+asciidoc:
+  extensions:
+    - "@asciidoctor/tabs"
 antora:
   extensions:
     - require: "@antora/lunr-extension"

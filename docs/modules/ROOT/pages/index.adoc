@@ -1,3 +1,39 @@
 = Antora docs
 
 WARNING: Currently under development
+
+== Code example
+
+[tabs]
+====
+Typescript::
++
+--
+[,typescript]
+----
+export class Test {
+    readonly name: string;
+}
+----
+--
+Javascript::
++
+--
+[,typescript]
+----
+export class Test {
+    readonly name: string;
+}
+----
+--
+Graphql::
++
+--
+[,graphql]
+----
+type Test {
+    name: String
+}
+----
+--
+====
