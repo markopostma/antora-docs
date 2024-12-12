@@ -11,18 +11,22 @@ Typescript::
 --
 [,typescript]
 ----
-export class Test {
-    readonly name: string;
+export class Example {
+    constructor(readonly name: string;) {
+        // do something
+    }
 }
 ----
 --
 Javascript::
 +
 --
-[,typescript]
+[,javascript]
 ----
-export class Test {
-    readonly name: string;
+export class Example {
+    constructor(name) {
+        this.name = name;
+    }
 }
 ----
 --
@@ -31,7 +35,7 @@ Graphql::
 --
 [,graphql]
 ----
-type Test {
+type Example {
     name: String
 }
 ----
