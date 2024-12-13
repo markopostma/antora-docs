@@ -1,0 +1,31 @@
+[tabs]
+====
+example:: This is a *nice* example.
+html::
++
+--
+[,html]
+----
+<p id="example">This is a <b>nice</b> example.</p>
+----
+--
+css::
++
+--
+[,css]
+----
+#example {
+  background: green;
+}
+----
+--
+js::
++
+--
+[,javascript]
+----
+const el = document.getElementById('example');
+el.style.background = 'red';
+----
+--
+====

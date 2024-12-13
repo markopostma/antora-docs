@@ -1,43 +1,8 @@
 = Antora docs
+:page-pagination:
 
 WARNING: Currently under development
 
 == Code example
 
-[tabs]
-====
-Typescript::
-+
---
-[,typescript]
-----
-export class Example {
-    constructor(readonly name: string;) {
-        // do something
-    }
-}
-----
---
-Javascript::
-+
---
-[,javascript]
-----
-export class Example {
-    constructor(name) {
-        this.name = name;
-    }
-}
-----
---
-Graphql::
-+
---
-[,graphql]
-----
-type Example {
-    name: String
-}
-----
---
-====
+include::example$code-tabs/graphql-request.adoc[]

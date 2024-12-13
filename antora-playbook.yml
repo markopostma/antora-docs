@@ -1,6 +1,7 @@
 site:
   title: Antora docs
   start_page: docs::index.adoc
+  robots: disallow
 urls:
   html_extension_style: drop
 asciidoc:

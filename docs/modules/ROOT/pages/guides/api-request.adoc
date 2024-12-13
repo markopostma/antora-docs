@@ -1,0 +1,13 @@
+= Api request
+:tip-caption: GET
+:page-pagination:
+
+TIP: */api/v1/users* link:more-info.html[More info]
+
+.Response
+[,json]
+----
+{
+  "name": "Some name"
+}
+----

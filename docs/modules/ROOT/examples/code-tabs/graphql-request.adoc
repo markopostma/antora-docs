@@ -1,0 +1,30 @@
+[tabs]
+====
+request::
++
+--
+[,http]
+----
+## First request
+GRAPHQL https://somehost.com/graphql
+
+{
+  "query": "someQuery() {
+    name,
+    email
+  }"
+}
+----
+--
+response::
++
+--
+[,json]
+----
+{
+  "name": "Henk"
+  "email": "henk@hotmail.com"
+}
+----
+--
+====

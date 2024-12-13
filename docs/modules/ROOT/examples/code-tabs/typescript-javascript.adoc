@@ -1,0 +1,27 @@
+[tabs]
+====
+typescript::
++
+--
+[,typescript]
+----
+export class Example {
+  constructor(readonly name: string;) {
+    // do something
+  }
+}
+----
+--
+javascript::
++
+--
+[,javascript]
+----
+export class Example {
+  constructor(name) {
+    this.name = name;
+  }
+}
+----
+--
+====
