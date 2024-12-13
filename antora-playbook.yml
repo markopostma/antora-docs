@@ -16,6 +16,9 @@ content:
     - url: .
       branches: HEAD
       start_path: docs
+    - url: https://github.com/markopostma/antora-ui.git
+      branches: main
+      start_path: docs
 ui:
   bundle:
     url: ui-bundle.zip
