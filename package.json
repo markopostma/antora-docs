@@ -1,13 +1,15 @@
 {
-  "name": "antora-graphql-demo",
+  "name": "@antora-tools/docs",
   "version": "0.1.0",
+  "private": true,
   "scripts": {
     "preserve": "npm run build",
     "prebuild": "npx rimraf ./build",
     "build": "npx antora antora-playbook.local.yml",
-    "serve": "npx http-server build/site -c-1"
+    "serve": "npx http-server build/site"
   },
   "dependencies": {
+    "@antora-tools/graphql": "^0.0.1",
     "@antora/lunr-extension": "^1.0.0-alpha.8",
     "@asciidoctor/tabs": "^1.0.0-beta.6",
     "antora": "^3.1.10"

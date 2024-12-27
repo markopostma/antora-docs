@@ -6,7 +6,7 @@ urls:
   html_extension_style: drop
 asciidoc:
   attributes:
-    page-pagination: "@"
+    "page-pagination": "@"
   extensions:
     - "@asciidoctor/tabs"
 antora:
@@ -30,15 +30,10 @@ content:
     - url: .
       branches: HEAD
       start_path: docs
-    - url: https://github.com/markopostma/antora-ui.git
-      branches: main
+    - url: ../antora-gql
+      branches: HEAD
       start_path: docs
 ui:
   bundle:
     url: ui-bundle.zip
-  supplemental_files:
-    - path: ui.yml
-      contents: |
-        static_files:
-        - .nojekyll
-    - path: .nojekyll
+    snapshot: true
