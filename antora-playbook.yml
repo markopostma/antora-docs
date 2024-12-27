@@ -18,7 +18,7 @@ antora:
       component:
         name: graphql-example
         title: GraphQL Api Example
-        version: 1.0.0
+        version: 0.0.1
         asciidoc:
           "page-pagination": ""
       introspection:
