@@ -16,8 +16,8 @@ antora:
     - require: "@antora-tools/graphql"
       enable_logging: true
       component:
-        name: graphql-example
-        title: GraphQL Api Example
+        name: graphql-demo
+        title: GraphQL Demo
         version: 0.0.1
         asciidoc:
           "page-pagination": ""
