@@ -1,7 +1,4 @@
 = Antora docs
-:page-pagination:
-
-WARNING: Currently under development
 
 == Code example
 

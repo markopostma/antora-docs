@@ -14,26 +14,30 @@ antora:
     - require: "@antora/lunr-extension"
       languages: [en]
     - require: "@antora-tools/graphql"
-      enable_logging: true
       component:
         name: graphql-demo
         title: GraphQL Demo
-        version: 0.0.1
-        asciidoc:
-          "page-pagination": ""
+        version: 0.1.0
       introspection:
-        api_endpoint: https://spacex-production.up.railway.app
-        strategy: REMOTE
-        location: https://spacex-production.up.railway.app
+        strategy: LOCAL
+        location: "node_modules/@antora-tools/graphql/test/integration/schemas/*.graphql"
+        # strategy: REMOTE
+        # api_endpoint: https://spacex-production.up.railway.app
+        # location: https://spacex-production.up.railway.app
+        # location: https://countries.trevorblades.com/graphql
+        # api_endpoint: https://countries.trevorblades.com/graphql
+        # location: https://rickandmortyapi.com/graphql
+        # api_endpoint: https://rickandmortyapi.com/graphql
 content:
   sources:
     - url: .
       branches: HEAD
       start_path: docs
-    - url: ../antora-gql
-      branches: HEAD
+    - url: ../antora-tools-graphql
+      branches: [release/*]
       start_path: docs
 ui:
   bundle:
     url: ui-bundle.zip
-    snapshot: true
+    # url: https://github.com/aerogear/antora-ui/raw/master/build/ui-bundle.zip
+    # snapshot: true
