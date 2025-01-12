@@ -17,7 +17,7 @@ antora:
       component:
         name: graphql-demo
         title: GraphQL Demo
-        version: 0.1.0
+        version: 0.1
         asciidoc:
           "page-pagination": ""
       introspection:
