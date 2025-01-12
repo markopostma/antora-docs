@@ -17,7 +17,7 @@ antora:
       component:
         name: graphql-demo
         title: GraphQL Demo
-        version: 0.1
+        version: 0.1.2
       introspection:
         strategy: LOCAL
         location: "node_modules/@antora-tools/graphql/test/integration/schemas/*.graphql"
