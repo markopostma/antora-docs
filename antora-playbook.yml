@@ -17,7 +17,7 @@ antora:
       component:
         name: graphql-demo
         title: GraphQL Demo
-        version: 0.1.5
+        version: 0.2.0
       introspection:
         strategy: REMOTE
         location: https://spacex-production.up.railway.app
