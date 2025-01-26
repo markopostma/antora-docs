@@ -14,14 +14,12 @@ antora:
     - require: "@antora/lunr-extension"
       languages: [en]
     - require: "@antora-tools/graphql"
-      component:
-        name: graphql-demo
-        title: GraphQL Demo
-        version: 0.2.0
-      introspection:
-        strategy: REMOTE
-        location: https://spacex-production.up.railway.app
-        api_endpoint: https://spacex-production.up.railway.app
+      name: graphql-demo
+      title: GraphQL Demo
+      version: 0.2.0
+      strategy: REMOTE
+      location: https://spacex-production.up.railway.app
+      api_endpoint: https://spacex-production.up.railway.app
 content:
   sources:
     - url: .
