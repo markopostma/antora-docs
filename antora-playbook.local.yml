@@ -16,16 +16,11 @@ antora:
     - require: "@antora-tools/graphql"
       name: graphql-demo
       title: GraphQL Demo
-      version: 0.2.3
       # strategy: LOCAL
       # location: "node_modules/@antora-tools/graphql/test/schemas/*.graphql"
       strategy: REMOTE
       api_endpoint: https://spacex-production.up.railway.app
       location: https://spacex-production.up.railway.app
-      # location: https://countries.trevorblades.com/graphql
-      # api_endpoint: https://countries.trevorblades.com/graphql
-      # location: https://rickandmortyapi.com/graphql
-      # api_endpoint: https://rickandmortyapi.com/graphql
 content:
   sources:
     - url: .
