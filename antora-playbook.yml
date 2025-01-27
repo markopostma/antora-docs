@@ -16,7 +16,7 @@ antora:
     - require: "@antora-tools/graphql"
       name: graphql-demo
       title: GraphQL Demo
-      version: 0.2.0
+      version: 0.2.2
       strategy: REMOTE
       location: https://spacex-production.up.railway.app
       api_endpoint: https://spacex-production.up.railway.app
