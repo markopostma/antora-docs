@@ -2,6 +2,7 @@ site:
   title: Antora docs
   start_page: docs::index.adoc
   robots: disallow
+  url: https://markopostma.github.io/antora-docs
 urls:
   html_extension_style: drop
 asciidoc:
