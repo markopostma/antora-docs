@@ -16,9 +16,9 @@ antora:
     - require: "@antora-tools/graphql"
       name: graphql-demo
       title: GraphQL Demo
-      # strategy: LOCAL
+      # strategy: FILE
       # location: "node_modules/@antora-tools/graphql/test/schemas/*.graphql"
-      strategy: REMOTE
+      strategy: INTROSPECTION
       api_endpoint: https://spacex-production.up.railway.app
       location: https://spacex-production.up.railway.app
 content:
