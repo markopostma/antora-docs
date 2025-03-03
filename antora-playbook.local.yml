@@ -16,13 +16,10 @@ antora:
     - require: "@antora-tools/graphql"
       name: graphql-demo
       title: GraphQL Demo
-      display_version: latest
+      display_version: 0.5.2
       strategy: INTROSPECTION
       location: https://spacex-production.up.railway.app
       api_endpoint: https://spacex-production.up.railway.app
-
 ui:
   bundle:
     url: ui-bundle.zip
-    # url: https://github.com/aerogear/antora-ui/raw/master/build/ui-bundle.zip
-    # snapshot: true
