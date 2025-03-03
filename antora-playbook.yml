@@ -1,7 +1,7 @@
 site:
-  title: Antora docs
+  title: GraphQL Demo
+  url: https://markopostma.github.io/antora-docs/graphql-demo
   robots: disallow
-  url: https://markopostma.github.io/antora-docs
 urls:
   html_extension_style: drop
 asciidoc:

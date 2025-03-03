@@ -1,5 +1,6 @@
 site:
-  title: Antora docs
+  title: GraphQL Demo
+  url: http://localhost:8080/graphql-demo
   robots: disallow
 urls:
   html_extension_style: drop
@@ -15,9 +16,11 @@ antora:
     - require: "@antora-tools/graphql"
       name: graphql-demo
       title: GraphQL Demo
+      display_version: latest
       strategy: INTROSPECTION
-      api_endpoint: https://spacex-production.up.railway.app
       location: https://spacex-production.up.railway.app
+      api_endpoint: https://spacex-production.up.railway.app
+
 ui:
   bundle:
     url: ui-bundle.zip
