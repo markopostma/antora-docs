@@ -1,6 +1,5 @@
 site:
   title: Antora docs
-  start_page: docs::index.adoc
   robots: disallow
 urls:
   html_extension_style: drop
@@ -16,19 +15,9 @@ antora:
     - require: "@antora-tools/graphql"
       name: graphql-demo
       title: GraphQL Demo
-      # strategy: FILE
-      # location: "node_modules/@antora-tools/graphql/test/schemas/*.graphql"
       strategy: INTROSPECTION
       api_endpoint: https://spacex-production.up.railway.app
       location: https://spacex-production.up.railway.app
-content:
-  sources:
-    - url: .
-      branches: HEAD
-      start_path: docs
-    - url: ../antora-tools-graphql
-      branches: [release/*]
-      start_path: docs
 ui:
   bundle:
     url: ui-bundle.zip

@@ -1,6 +1,0 @@
-* xref:extensions.adoc[]
-
-* Guides
-** xref:guides/code-tabs.adoc[]
-** xref:guides/create-tabs.adoc[]
-** xref:guides/api-request.adoc[]

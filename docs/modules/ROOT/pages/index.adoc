@@ -1,5 +1,0 @@
-= Antora docs
-
-== Code example
-
-include::example$code-tabs/graphql-request.adoc[]

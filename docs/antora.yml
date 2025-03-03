@@ -1,6 +1,0 @@
-name: docs
-title: Antora docs
-start_path: docs
-version: ~
-nav:
-  - modules/ROOT/nav.adoc

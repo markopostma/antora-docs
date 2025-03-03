@@ -1,6 +1,5 @@
 site:
   title: Antora docs
-  start_page: docs::index.adoc
   robots: disallow
   url: https://markopostma.github.io/antora-docs
 urls:
@@ -21,11 +20,6 @@ antora:
       strategy: INTROSPECTION
       location: https://spacex-production.up.railway.app
       api_endpoint: https://spacex-production.up.railway.app
-content:
-  sources:
-    - url: .
-      branches: HEAD
-      start_path: docs
 ui:
   bundle:
     url: ui-bundle.zip
