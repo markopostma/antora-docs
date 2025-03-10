@@ -9,7 +9,7 @@
     "serve": "npx http-server build/site"
   },
   "dependencies": {
-    "@antora-tools/graphql": "^0.5.3",
+    "@antora-tools/graphql": "^0.5.5",
     "@antora/lunr-extension": "^1.0.0-alpha.8",
     "@asciidoctor/tabs": "^1.0.0-beta.6",
     "@graphql-tools/url-loader": "^8.0.24",
