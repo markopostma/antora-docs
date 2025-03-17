@@ -20,7 +20,7 @@ antora:
         Welcome to the `GraphQL Demo` pages. Feel free to take a look around!
 
         IMPORTANT: These pages are for demo purposes only.
-      display_version: 0.5.7
+      display_version: 0.5.9
       strategy: INTROSPECTION
       location: https://spacex-production.up.railway.app
       api_endpoint: https://spacex-production.up.railway.app
