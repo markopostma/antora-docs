@@ -1,0 +1,4 @@
+.Releases
+- xref:releases/0.7.adoc[]
+- xref:releases/0.6.adoc[]
+- xref:releases/0.5.adoc[]

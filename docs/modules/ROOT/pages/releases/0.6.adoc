@@ -1,0 +1,8 @@
+= 0.6
+:page-role: -toc
+
+Introduces meta file feature.
+
+== Added
+
+* Support for `xref:0.6@configuration/meta_file.adoc[]` configuration.

@@ -1,3 +1,13 @@
 = @antora-tools/graphql
 
 An extension for Antora to add pages extracted from a GraphQL schema.
+
+== Releases
+
+|===
+| # | Date | Release notes
+
+| `xref:0.7@antora-tools-graphql::index.adoc[0.7]` | Soon... | xref:releases/0.7.adoc[]
+| `xref:0.6@antora-tools-graphql::index.adoc[0.6]` | 03-17-2025 | xref:releases/0.6.adoc[]
+| `0.5` | 03-02-2025 | xref:releases/0.5.adoc[]
+|===
