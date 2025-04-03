@@ -24,6 +24,11 @@ antora:
       strategy: INTROSPECTION
       location: https://spacex-production.up.railway.app
       api_endpoint: https://spacex-production.up.railway.app
+content:
+  sources:
+    - url: .
+      start_path: docs
+      branch: [HEAD, release/*]
 ui:
   bundle:
     url: ui-bundle.zip
