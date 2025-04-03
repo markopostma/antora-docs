@@ -1,6 +1,7 @@
 site:
-  title: GraphQL Demo
-  url: http://localhost:8080/graphql-demo
+  title: Antora docs
+  url: /site
+  start_page: antora-tools-graphql::index.adoc
   robots: disallow
 urls:
   html_extension_style: drop
@@ -20,7 +21,6 @@ antora:
         Welcome to the `GraphQL Demo` pages. Feel free to take a look around!
 
         IMPORTANT: These pages are for demo purposes only.
-      display_version: 0.5.9
       strategy: INTROSPECTION
       location: https://spacex-production.up.railway.app
       api_endpoint: https://spacex-production.up.railway.app
@@ -28,7 +28,7 @@ content:
   sources:
     - url: .
       start_path: docs
-      branch: [HEAD, release/*]
+      branches: [HEAD, release/*]
 ui:
   bundle:
     url: ui-bundle.zip

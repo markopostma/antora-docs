@@ -1,0 +1,3 @@
+= @antora-tools/graphql
+
+An extension for Antora to add pages extracted from a GraphQL schema.
