@@ -6,12 +6,13 @@
     "preserve": "npm run build",
     "prebuild": "npx rimraf ./build",
     "build": "npx antora antora-playbook.local.yml",
-    "serve": "npx http-server build/site"
+    "serve": "npx http-server build"
   },
   "dependencies": {
-    "@antora-tools/graphql": "^0.5.9",
+    "@antora-tools/graphql": "^0.6.0",
     "@antora/lunr-extension": "^1.0.0-alpha.8",
     "@asciidoctor/tabs": "^1.0.0-beta.6",
+    "@graphql-tools/graphql-file-loader": "^8.0.19",
     "@graphql-tools/url-loader": "^8.0.24",
     "antora": "^3.1.10"
   },

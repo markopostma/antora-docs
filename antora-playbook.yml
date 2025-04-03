@@ -1,7 +1,8 @@
 site:
-  title: GraphQL Demo
-  url: https://markopostma.github.io/antora-docs/graphql-demo
+  title: Antora docs
+  url: https://markopostma.github.io/antora-docs
   robots: disallow
+  start_page: antora-tools-graphql::index.adoc
 urls:
   html_extension_style: drop
 asciidoc:
@@ -16,11 +17,12 @@ antora:
     - require: "@antora-tools/graphql"
       name: graphql-demo
       title: GraphQL Demo
+      meta_file: "./metadata.json"
       intro: |
         Welcome to the `GraphQL Demo` pages. Feel free to take a look around!
 
         IMPORTANT: These pages are for demo purposes only.
-      display_version: 0.5.9
+      display_version: latest
       strategy: INTROSPECTION
       location: https://spacex-production.up.railway.app
       api_endpoint: https://spacex-production.up.railway.app

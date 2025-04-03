@@ -1,0 +1,5 @@
+= @antora-tools/graphql
+:page-role: -toc
+
+[.lead]
+Welcome!

@@ -1,0 +1,33 @@
+= Getting started
+
+To get started, first xref:introspection.adoc#strategy[determine a strategy].
+
+== Installation
+
+[,console]
+----
+npm install @antora-tools/graphql
+----
+
+When using `FILE` strategy.
+
+[,console]
+----
+npm install @graphql-tools/graphql-file-loader
+----
+
+When using `URL` or `INTROSPECTION`.
+
+[,console]
+----
+npm install @graphql-tools/url-loader
+----
+
+== Enable the extension
+
+[,yml]
+----
+antora:
+  extensions:
+    - require: "@antora-tools/graphql"
+----

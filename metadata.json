@@ -1,0 +1,13 @@
+{
+  "OBJECT": {
+    "Country": {
+      "fields": {
+        "name": {
+          "documentation": {
+            "example": "Germany"
+          }
+        }
+      }
+    }
+  }
+}
