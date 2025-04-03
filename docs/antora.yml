@@ -1,7 +1,6 @@
 name: antora-tools-graphql
 title: "@antora-tools/graphql"
-version: ~
-display_version: 0.6.0
+version: "0.7"
 start_page: antora-tools-graphql::index.adoc
 nav:
   - modules/ROOT/nav.adoc

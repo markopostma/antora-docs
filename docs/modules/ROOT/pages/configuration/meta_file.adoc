@@ -1,1 +1,106 @@
 = meta_file
+
+A meta file can be used to customize some aspects of the generated output. For example the output of the introspection query, shown descriptions or template literals.
+
+== Introspection types
+
+=== SCALAR
+
+[,json]
+----
+{
+  "SCALAR": {
+    "Float": {
+      "documentation": {
+        "description": "A float...",
+        "example": 1337.0
+      }
+    }
+  }
+}
+----
+
+=== OBJECT
+
+[,json]
+----
+{
+  "OBJECT": {
+    "Car": {
+      "documentation": {
+        "description": "A Car..."
+      },
+      "fields": {
+        "brand": {
+          "documentation": {
+            "example": "Volvo"
+          }
+        }
+      }
+    }
+  }
+}
+----
+
+=== INPUT_OBJECT
+
+[,json]
+----
+{
+  "INPUT_OBJECT": {
+    "CarFilter": {
+      "documentation": {
+        "description": "Filter cars"
+      },
+      "input_fields": {
+        "brand": {
+          "documentation": {
+            "example": "Volvo"
+          }
+        }
+      }
+    }
+  }
+}
+----
+
+== LOCALE
+
+If your preferred locale is not supported; Most text in templates can be customized to your liking:
+
+[,json]
+----
+{
+  "LOCALE": {
+    "[key]": "[value]",
+    // for example
+    "apiEndpoint": "Endpoint"
+  }
+}
+----
+
+=== Allowed keys
+
+[,ts]
+----
+export interface Locale {
+  apiEndpoint: string;
+  arguments: string;
+  definition: string;
+  description: string;
+  downloads: string;
+  enumValues: string;
+  example: string;
+  fields: string;
+  implementations: string;
+  implementedBy: string;
+  inputFields: string;
+  locations: string;
+  name: string;
+  possibleTypes: string;
+  repeatable: string;
+  request: string;
+  returnType: string;
+  size: string;
+}
+----
