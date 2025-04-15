@@ -1,9 +1,0 @@
-= 0.7
-:page-role: -toc
-
-Introduces localized templates.
-
-== Added
-
-* Support for `xref:0.7@configuration/locale.adoc[]` configuration.
-* Support for overriding localization keys.
