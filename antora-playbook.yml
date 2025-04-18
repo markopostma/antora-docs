@@ -17,7 +17,7 @@ antora:
     - require: "@antora-tools/graphql"
       name: graphql-demo
       title: GraphQL Demo
-      display_version: 0.8.1
+      display_version: 0.8.2
       intro: |
         Welcome to the `GraphQL Demo` pages. Feel free to take a look around!
 
