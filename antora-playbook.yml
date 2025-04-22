@@ -1,7 +1,7 @@
 site:
   title: Antora docs
   url: /antora-docs
-  start_page: antora-tools-graphql::index.adoc
+  start_page: antora-docs::index.adoc
   robots: disallow
 urls:
   html_extension_style: drop
@@ -16,17 +16,16 @@ antora:
       languages: [en]
     - require: "@antora-tools/graphql"
       name: graphql-demo
-      title: GraphQL Demo
+      title: Documentation Demo
       display_version: 0.9.0
       intro: |
-        Welcome to the `GraphQL Demo` pages. Feel free to take a look around!
+        Welcome to the **Documentation Demo** 📚 pages.
+        In front of you are static pages generated in `Antora` by using the `@antora-tools/graphql` extension!
 
-        IMPORTANT: These pages are for demo purposes only.
-
-        .API ENDPOINT
-        ----
-        https://spacex-production.up.railway.app
-        ----
+        [TIP,caption="Api-endpoint"]
+        ====
+        `https://spacex-production.up.railway.app`
+        ====
       strategy: INTROSPECTION
       location: https://spacex-production.up.railway.app
 content:
