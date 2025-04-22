@@ -17,14 +17,18 @@ antora:
     - require: "@antora-tools/graphql"
       name: graphql-demo
       title: GraphQL Demo
-      display_version: 0.8.2
+      display_version: 0.9.0
       intro: |
         Welcome to the `GraphQL Demo` pages. Feel free to take a look around!
 
         IMPORTANT: These pages are for demo purposes only.
+
+        .API ENDPOINT
+        ----
+        https://spacex-production.up.railway.app
+        ----
       strategy: INTROSPECTION
       location: https://spacex-production.up.railway.app
-      api_endpoint: https://spacex-production.up.railway.app
 content:
   sources:
     - url: .
